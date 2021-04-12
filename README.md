@@ -36,3 +36,7 @@ function Example() {
   );
 }
 ```
+
+## Demo
+
+See a working demo using `motion-box` [here](https://motion-box.vercel.app)
