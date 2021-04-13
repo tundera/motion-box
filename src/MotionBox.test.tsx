@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Default as MotionBox } from '../stories/MotionBox.stories';
+import { Default as MotionBox } from './MotionBox.stories';
 
 describe('Thing', () => {
   it('renders without crashing', () => {
