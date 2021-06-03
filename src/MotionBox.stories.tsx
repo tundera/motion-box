@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import MotionBox, { MotionBoxProps } from '.';
+import MotionBox from '.';
 
 const meta: Meta = {
   title: 'MotionBox',
@@ -9,7 +9,7 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<MotionBoxProps> = (args) => (
+const Template: Story = (args) => (
   <MotionBox width="150px" height="150px" bg="white" {...args} />
 );
 
